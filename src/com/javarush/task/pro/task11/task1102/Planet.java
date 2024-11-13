@@ -6,18 +6,18 @@ package com.javarush.task.pro.task11.task1102;
 
 public class Planet {
 
-    public static String name;
+    public String name;
 
-    public static long age;
+    public long age;
 
-    public static int speed;
+    public int speed;
 
-    public static int area;
+    public int area;
 
     public void printInformation() {
-        System.out.println("Имя планеты: " + name + ".");
-        System.out.println("Возраст: " + age + " лет.");
-        System.out.println("Орбитальная скорость: " + speed + " км/ч.");
-        System.out.println("Общая площадь: " + area + " кв. км.");
+        System.out.println("Имя планеты: " + this.name + ".");
+        System.out.println("Возраст: " + this.age + " лет.");
+        System.out.println("Орбитальная скорость: " + this.speed + " км/ч.");
+        System.out.println("Общая площадь: " + this.area + " кв. км.");
     }
 }
