@@ -12,6 +12,7 @@ public class Solution {
         for (int i = 0; i < arrayList.size(); i++) {
             System.out.println(arrayList.get(i));
         }
+        ArrayList u = new ArrayList();
     }
 
     public static void main(String[] args) {
